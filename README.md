@@ -1,10 +1,17 @@
 # SudokuSolver
 
-Client side
+This project consists in a Sudoku Solver with the both options:
+  - Solve the sudoku completely
+  - Solve the sudoku one cell at a time
+The idea is to implement at some time some kind of uploader of images, but is isn't implemented yet.
 
-Object Oriented Programming
+You can use it live at [this link](https://sudokusolv.herokuapp.com/).
 
-Although in a simple file since it's not possible to connect between files in the client side of js
 
-If you click solve, before trying again you have to clean it
+### Development
+This client side project was developed using:
+* [NodeJS]
+* [HTML]
+* [CSS]
 
+The php and json files were only to be able to host it in heroku, so ignore them better.
