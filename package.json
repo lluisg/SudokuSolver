@@ -1,0 +1,32 @@
+{
+  "name": "sudokusolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "WEBserver.js",
+  "scripts": {
+    "nodemon": "nodemon WEBserver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lluisg@github.com/lluisg/SudokuSolver.git"
+  },
+  "keywords": [
+    "sudoku",
+    "solver",
+    "oop"
+  ],
+  "author": "Lluis Guardia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lluisg/SudokuSolver/issues"
+  },
+  "homepage": "https://github.com/lluisg/SudokuSolver#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6",
+    "socket.io": "^2.3.0",
+    "underscore": "^1.10.2"
+  }
+}
