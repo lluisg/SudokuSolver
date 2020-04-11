@@ -1,11 +1,8 @@
 {
   "name": "sudokusolver",
   "version": "1.0.0",
-  "description": "",
-  "main": "WEBserver.js",
-  "scripts": {
-    "nodemon": "nodemon WEBserver.js"
-  },
+  "description": "A sudoku solver using HTML and NodeJS",
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "git+https://lluisg@github.com/lluisg/SudokuSolver.git"
