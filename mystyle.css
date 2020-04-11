@@ -1,0 +1,115 @@
+#grid {
+    position:fixed;
+    top: 3%;
+    left: 25%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 40%;
+    height:widht
+    cellspacing="0";
+    cellpadding="0";
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.cell input {
+    display: inline-block;
+    /* width: 10.355%; */
+    boder-collapse:collapse;
+    width: 100%;
+    padding-bottom: 20%;
+
+    float: center;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+td:first-child {
+  border-left:solid;
+}
+td:nth-child(3n) {
+  border-right:solid ;
+}
+tr:first-child {
+  border-top:solid;
+}
+tr:nth-child(3n) td {
+  border-bottom:solid ;
+}
+
+#buttStep {
+  position:fixed;
+  top: 10%;
+  right: 10%;
+  padding: 2% 5%;
+  text-align: center;
+  display: inline-block;
+  font-size: 100%;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#buttStep:hover {
+  background-color: blue;
+  color: white;
+}
+#buttStep:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#butt {
+  position:fixed;
+  top: 25%;
+  right: 10%;
+  padding: 2% 5%;
+  text-align: center;
+  display: inline-block;
+  font-size: 100%;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#butt:hover {
+  background-color: green;
+  color: white;
+}
+#butt:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#clean{
+  position:fixed;
+  top: 40%;
+  right: 10%;
+  padding: 2% 5%;
+  text-align: center;
+  display: inline-block;
+  font-size: 100%;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#clean:hover {
+  background-color: #A9A9A9;
+  color: black;
+}
+#clean:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#load{
+  position:fixed;
+  top: 55%;
+  right: 10%;
+  padding: 2% 5%;
+  text-align: center;
+  display: inline-block;
+  font-size: 100%;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
