@@ -5,7 +5,11 @@ class Cell{
     this.x = _x;
     this.y = _y;
     this.id = this.x.toString()+this.y.toString();
-    this.value = parseInt(document.getElementById(this.id).value);
+    this.value = 0;
+    if (typeof document !== "undefined") {
+      this.value = parseInt(document.getElementById(this.id).value);
+    }
+    // this.value = parseInt(document.getElementById(this.id).value);
     this.solved = false;
     this.possibleSolution = new Array();
   }
@@ -61,7 +65,7 @@ class Cell{
 class Board{
 
   constructor(){
-    this.table = document.getElementsByTagName("table");
+    // this.table = document.getElementsByTagName("table");
     this.createCells();
   }
 
