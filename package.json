@@ -5,12 +5,13 @@
   "main": "sudokusolver.js",
   "scripts": {
     "start": "node sudokusolver.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install; npm run build"
   },
   "author": "lluis guardia",
   "license": "ISC",
   "dependencies": {
     "xmlhttprequest": "^1.8.0",
-    "xmlhttprequest-ssl": "^1.6.2"
+    "xmlhttprequest-ssl": "^1.6.3"
   }
 }
